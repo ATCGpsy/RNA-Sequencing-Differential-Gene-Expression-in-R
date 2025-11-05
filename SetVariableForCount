@@ -1,0 +1,2 @@
+dds <- DESeqDataFromMatrix(countData= gene, colData=sample_key, designe= ~ condition)
+dds <- DESeq2(dds)
