@@ -1,0 +1,9 @@
+#eliminating outlier genes based on P-value and adjusted P_value and log2 fold changes
+
+resgroup_p05_gene <- subset (resgroup_p05_gene, Padj<0.05)
+
+resgroup_p05_fold2_gene <- subset (resgroup_P05_gene, abs (log2FoldChange)>log2(2))
+
+write.csv (resgroup_P05_fold2_gene, "resgroup_P05_fold2_gene.csv")
+
+dim(resgroup_P05_fold2_gene)
