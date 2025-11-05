@@ -1,0 +1,5 @@
+#preparing matrix (Controls as 0 and Tumors consider as 1)
+   designe <- model.matrix(~group)
+
+#Coordinating design variable raws with y variable columns
+   rownames (designe) <- colnames (y)
