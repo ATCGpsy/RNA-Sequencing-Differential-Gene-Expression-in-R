@@ -1,3 +1,0 @@
-#adding a condition column to CSV file and determine the order of controls (1) and tumor samples(2).
-
-sample_key$ condition <- factor ((c("1","2","2","1","2")))

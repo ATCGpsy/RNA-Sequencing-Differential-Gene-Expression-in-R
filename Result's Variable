@@ -1,9 +1,0 @@
-#determining a variable "resgroup_gene" which prints the results based on dds and performs the comparison
-
-resgroup_gene <- result(dds, contrast= c("condition", "2", "1"))
-
-#saving file as CSV
-
-write.csv(resgroup_gene,"resgroup_gene.csv")
-
-#now the results of resgroup are in reference folder under the title of "resgroup_gene"
