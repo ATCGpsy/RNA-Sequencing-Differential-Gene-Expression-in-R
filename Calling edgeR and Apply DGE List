@@ -1,0 +1,7 @@
+library(edgeR)
+
+ y<- DGEList(count= rawdata [ , 2:6] , genes= rawdata[ ,1])
+
+ #Calculating library size
+    y$ samples$ lib.size <- colSums
+    (y$ count)
