@@ -1,0 +1,12 @@
+#glm Methos for DEG 
+#DEG test for variable (designe)
+   fit <- glmQLFit(y, designe)
+
+   #DEG test for variable (y)
+      fit <- glmQLFTest (fit)
+
+      #printing the lease P-value genes
+         toptags (fit)
+
+          #determining the number of printed genes (n)
+                tab <- data.frame (topTags (fit), n=1000)
