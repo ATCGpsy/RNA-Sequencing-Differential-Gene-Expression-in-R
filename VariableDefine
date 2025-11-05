@@ -1,0 +1,10 @@
+#defining variable based on sequencing data table 
+#C for control and T for tumor samples
+
+group <- factor (c("c", "T", "T", "c", "T"))
+
+#defining colors variable for plot
+#blue for controls and red for tumors
+
+colors <-c ( "blue", "red", "red", "blue","red")
+point <- c(0, 1)
