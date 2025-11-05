@@ -1,0 +1,2 @@
+#estimate dispersion based on designe
+y <- estimateDisp (y, designe)
