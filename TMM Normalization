@@ -1,0 +1,4 @@
+#Applying TMM Normalization on Y and name it Y
+
+y<- CalcNormFactors(y)
+y $samples
