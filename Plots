@@ -1,0 +1,5 @@
+plotMDS(y, col=colors[group],pch=point[group])
+
+#Defining legend for plot
+
+   legend ("topflet", legend = levels(group), pch= point, col=colors, ncol=2)
