@@ -1,2 +1,4 @@
 gene<- read.csv("file's name", header=T, sep=",", row.names=1)
-sample_key <- read.csv ("sample_key.csv")
+
+#Checking head of the data 
+head(rawdata)
