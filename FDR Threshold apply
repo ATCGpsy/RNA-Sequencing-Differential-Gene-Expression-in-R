@@ -1,0 +1,4 @@
+summary (decideTests(fit)
+  
+  #plot shows log2fc against log count per million
+     plotMD(fit) 
